@@ -259,10 +259,10 @@ typedef struct _SYSTEM_PROCESS_INFORMATION
 //=========================================================================
 // ZwQuerySystemInformation definitions
 typedef NTSTATUS(NTAPI* PZwQuerySystemInformation)(
-    __in       SYSTEM_INFORMATION_CLASS SystemInformationClass,
-    __inout    PVOID SystemInformation,
-    __in       ULONG SystemInformationLength,
-    __out_opt  PULONG ReturnLength
+    SYSTEM_INFORMATION_CLASS SystemInformationClass,
+    PVOID SystemInformation,
+    ULONG SystemInformationLength,
+    PULONG ReturnLength
     );
 
 #define STATUS_INFO_LENGTH_MISMATCH      ((NTSTATUS)0xC0000004L)
