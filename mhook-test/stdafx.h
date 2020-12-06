@@ -13,6 +13,6 @@
 #include <WS2tcpip.h>
 #pragma comment(lib, "ws2_32")
 
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
 #include <stdlib.h>

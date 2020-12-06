@@ -18,7 +18,7 @@
 //FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
 //IN THE SOFTWARE.
 
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "mhook.h"

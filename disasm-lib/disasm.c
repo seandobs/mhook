@@ -1,7 +1,7 @@
 // Copyright (C) 2004, Matt Conover (mconover@gmail.com)
 #undef NDEBUG
 #include <assert.h>
-#include <windows.h>
+#include <Windows.h>
 #include "disasm.h"
 
 #ifdef NO_SANITY_CHECKS

@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
 #include <stdarg.h>
 #include <assert.h>

@@ -12,7 +12,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
 #include "misc.h"
 

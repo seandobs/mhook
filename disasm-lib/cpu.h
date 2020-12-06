@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#include <windows.h>
+#include <Windows.h>
 #include "misc.h"
 
 // Windows SDK assumes default alignment.
